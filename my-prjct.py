@@ -1,5 +1,8 @@
-a = int(input("Enter a number: "))
-if a %2 == 0:
-    print("Your number is even")
+a = int(input("Enter a first number: "))
+b = int(input("Enter a second number: "))
+if a > b:
+    print("First number is greater")
+elif a < b:
+    print("Second number is greater")
 else:
-    print("Your number is odd")
+    print ("Both are equal")
